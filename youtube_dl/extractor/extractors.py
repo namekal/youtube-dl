@@ -1,5 +1,8 @@
 # flake8: noqa
 from __future__ import unicode_literals
+from .weverse import (
+    WeverseIE
+)
 
 from .abc import (
     ABCIE,
